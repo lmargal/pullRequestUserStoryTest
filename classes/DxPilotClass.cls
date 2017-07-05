@@ -1,3 +1,3 @@
 public class DxPilotClass {
-private String att;
+private String attribute;
 }
