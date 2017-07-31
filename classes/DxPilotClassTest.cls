@@ -1,11 +1,12 @@
-@isTest
+@isTest(seeAllData=false)
 public class DxPilotClassTest {
     
     
-    public static testMethod void validateHelloWorld() {
+    public static testMethod void test() {
         DxPilotClass.method();
-        List<Account> accts = new List<Account>();
-        Account a = new Account(Name='Test Trigger');
+        Test.startTest();
+        Account a = new Account(Name='Test Trigger 2');
 		insert a; 
+        Test.stopTest();
 	}
 }
