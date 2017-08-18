@@ -3,6 +3,8 @@
     <types>
         <members>FirstClass</members>
         <members>FirstClassTest</members>
+        <members>SecondClass</members>
+        <members>SecondClassTest</members>
         <name>ApexClass</name>
     </types>
     <version>39.0</version>
